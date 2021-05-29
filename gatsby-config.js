@@ -66,12 +66,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-json`,
     `gatsby-plugin-styled-components`,
-    {
-    resolve: 'gatsby-plugin-drift',
-    options: {
-      appId: 'cex24aevvx8g',
-    },
-  },
+   
     {
       resolve: `gatsby-transformer-remark`,
       options: {

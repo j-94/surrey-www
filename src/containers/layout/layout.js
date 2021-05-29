@@ -6,16 +6,17 @@ import '../../assets/fonts/cerebrisans/cerebrisans.css'
 import '../../assets/fonts/font-awesome/font-awesome.css'
 import '../../assets/css/bootstrap.css';
 import {GlobalStyle} from '../../assets/css/main-style'
-import ScrollToTop from '../../components/ui/scroll-to-top'
+//import ScrollToTop from '../../components/ui/Driftchat'
 // import Transition from '../../components/transition'
+import Driftchat from '../../components/ui/Driftchat'
 
 const Layout = ({children}) => {
     return (
         <ThemeProvider theme={theme}>
             <div className="wrapper">
                 <GlobalStyle/>
-                {children}
-                <ScrollToTop/>
+                {children}                
+                <Driftchat/>
             </div>
         </ThemeProvider>
     )
