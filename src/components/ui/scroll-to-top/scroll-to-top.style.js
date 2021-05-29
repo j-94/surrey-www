@@ -2,8 +2,9 @@ import styled, {css} from 'styled-components'
 
 export const ScrollTopButton = styled.button `
     position: fixed;
-    right: 30px;
-    bottom: -60px;
+    top: 878px;
+    right: 100px;
+    bottom: -200px;
     z-index: 999;
     box-shadow: 0 30px 50px rgba(0,0,0,0.03);
     display: block;
