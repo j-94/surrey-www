@@ -206,16 +206,16 @@ exports.createPages = async ({ graphql, actions }) => {
     });
 
     // Create Single IT Solution page
-    const itsolutions = result.data.allItSolutionsJson.edges;
-    itsolutions.forEach(({ node }) => {
-        createPage({
-            path: `it-solution/${node.fields.slug}`,
-            component: solutionPage,
-            context: {
-                slug: node.fields.slug
-            }
-        })
-    });
+// const itsolutions = result.data.allItSolutionsJson.edges;
+// itsolutions.forEach(({ node }) => {
+//     createPage({
+//         path: `it-solution/${node.fields.slug}`,
+//         component: solutionPage,
+//         context: {
+//             slug: node.fields.slug
+//         }
+//     })
+// });
 
     // Create Single Case Study Page
 
