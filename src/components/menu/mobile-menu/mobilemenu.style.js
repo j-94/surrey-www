@@ -71,7 +71,7 @@ export const MobileMenuWrap = styled.nav`
         max-height: 0;
         overflow-y: hidden;
         transition-property: all;
-        transition-duration: .5s;
+        transition-duration: .1s;
         transition-timing-function: ease-in-out;
         transform-origin: top;
         z-index: 99;
